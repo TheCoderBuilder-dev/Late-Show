@@ -1,7 +1,3 @@
-
----
-
-```markdown
 #  Late Show API
 
 Welcome to the **Late Show** API – a backend system built with Flask that manages TV show episodes, guest appearances, and ratings. Powered by Flask, SQLAlchemy, and REST principles.
