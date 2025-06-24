@@ -58,3 +58,15 @@ def create_appearance():
     db.session.commit()
 
     return jsonify(new_appearance.to_dict()), 201
+
+@api.route('/appearances/<int:id>', methods=['DELETE'])
+def delete_appearance(id):
+    appearance = Appearance.query.get(id)
+
+    if not appearance:
+        return jsonify({'error': 'Appearance not found'}), 404
+
+    db.session.delete(appearance)
+    db.session.commit()
+
+    return jsonify({'message': 'Appearance deleted successfully'}), 200
