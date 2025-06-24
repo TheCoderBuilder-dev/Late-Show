@@ -1,10 +1,10 @@
-#  Late Show API
+# Late Show API
 
 Welcome to the **Late Show** API – a backend system built with Flask that manages TV show episodes, guest appearances, and ratings. Powered by Flask, SQLAlchemy, and REST principles.
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```
 
@@ -27,7 +27,7 @@ lateshow-brian-mwirigi/
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 - **Python 3.12+**
 - **Flask**
@@ -75,7 +75,7 @@ python run.py
 ```
 
 Server runs at:
- `http://localhost:5555`
+`http://localhost:5555`
 
 ---
 
@@ -121,12 +121,9 @@ Then test:
 
 ---
 
-##  Author
+## Author
 
 **Brian Mwirigi**
 Phase 4 Student @ Moringa School
 GitHub: [@TheCoderBuilder-dev](https://github.com/TheCoderBuilder-dev)
 
----
-
-````
